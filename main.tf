@@ -1,10 +1,11 @@
 
-resource "aws_instance" "name" {
-
-  
+terraform {
+  required_providers {
+    aws = "hashicorp/aws"
+    version = "4.16.0"
+  }
 }
 
+provider "aws" {
+    region = "us-east-1"
 
-output "name" {
-  
-}
