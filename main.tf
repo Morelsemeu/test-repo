@@ -4,3 +4,8 @@ terraform {
     version = "4.16.0"
   }
 }
+
+provider "aws" {
+    region = "us-east-1"
+  
+}
