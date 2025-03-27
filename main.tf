@@ -1,3 +1,4 @@
+
 terraform {
   required_providers {
     aws = "hashicorp/aws"
@@ -7,5 +8,4 @@ terraform {
 
 provider "aws" {
     region = "us-east-1"
-  
-}
+
